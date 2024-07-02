@@ -1,0 +1,179 @@
+
+
+.body{
+    background-color: white;
+    font-family: Arial;
+}
+
+.homepage{
+    width: 500;
+    height: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+
+.page1{
+    width: 500px;
+    height: 500px;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.p1{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-family: arial;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.officepic{
+    width: 550px;
+    height: 800px;
+    margin: 50px;
+    margin-left: 150px;
+}
+
+.officetext{
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+    margin-top: 700px;
+    margin-right: 200px;
+    margin-left: 40px;
+    font-size: 25px;
+    font-family: arial;
+    font-weight: normal;
+    text-align: left;
+    
+} 
+.officename{
+    margin-left: 150px;
+    font-family: arial;
+    font-weight: normal;
+}
+.bold{
+    font-weight: bold;
+}
+
+.projecth1{
+    margin-left: 150px;
+    font-family: arial;
+    font-weight: normal;
+}
+
+.contacttittle{
+    margin-left: 150px;
+    font-family: arial;
+    font-weight: normal;
+}
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}
+
+.contact ul{
+    padding: 0;
+    list-style-type: none;
+    
+
+}
+
+.contact ul li h2{
+    font-family: arial;
+    font-weight: normal;
+}
+
+.contact li{
+    font-size: 20px;
+}
+
+.proyectitos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px;
+    padding: 5px;
+}
+
+.card{
+    width: 18rem;
+    font-family: arial;
+    font-weight: normal;
+    margin-right:150px;
+    
+    
+}
+
+.card-body{
+   
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title{
+    font-family: arial;
+    font-weight: normal;
+}
+
+.card-text{
+    font-family: arial;
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.card-image1{
+    width: 350px;
+    height: 500px;
+}
+.card-image2{
+    width: 450px;
+    height: 500px;
+
+}
+.card-image3{
+    width: 350px;
+    height: 500px;
+
+}
+.card-image4{
+    width: 350px;
+    height: 500px;
+}
+.card-image5{
+    width: 350px;
+    height: 500px;
+}
+.card-image6{
+    width: 350px;
+    height: 500px;
+}
+.card-image7{
+    width: 350px;
+    height: 500px;
+}
+
+.projectCard{
+    text-decoration: none;
+    color: black;
+}
