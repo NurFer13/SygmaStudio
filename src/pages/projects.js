@@ -17,6 +17,15 @@ export default function Projects (){
 <div className="proyectitos ">
 
 <div className="row">
+<div class="col">
+<div className="card"><Link className="projectCard" to="../projectcard">
+  <img src={project1} className="card-image2" alt="..."/>
+  <div className="card-body">
+    <h2 className="card-title">WHAT'S BEHIND</h2>
+    <p className="card-text">Competition Festival Model Temple – Barcelona</p>
+  </div></Link>
+</div>
+</div>
 
 <div class="col">
 <div className="card"><Link className="projectCard" to="../projectcard">
@@ -63,6 +72,8 @@ export default function Projects (){
     <p className="card-text">Private client - New Construction - Alcañiz</p>
   </div></Link>
 </div></div>
+</div>
+
 <div className="row">
 <div className="col">
 <div className="card"><Link className="projectCard" to="../projectcard">
@@ -72,7 +83,7 @@ export default function Projects (){
     <p className="card-text">Private client - Internal reform - Menorca</p>
   </div></Link>
 </div></div></div>
-</div>
+
 </div>
 </>
     );
