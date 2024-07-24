@@ -18,11 +18,14 @@
     display: block;
 }
 
+
 .page1{
-    width: 500px;
-    height: 500px;
+    display: flex;
+    flex-shrink: 0;
+    padding: 20px;
+    flex-direction: column;
     text-decoration: none;
-    margin: 30px;
+    margin-left: 80px;
 }
 
 .p1{
