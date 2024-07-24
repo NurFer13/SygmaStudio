@@ -110,16 +110,15 @@
 
 .proyectitos{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    margin: 70px 30px 30px;
-    
+    margin: 0 auto;
 }
 .row{
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -128,6 +127,7 @@
     flex-wrap: wrap;
     margin: 30px;
     padding: 5px;
+  
     
 }
 
@@ -166,39 +166,39 @@
 
 .card-image1{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 .card-image2{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 
 }
 .card-image3{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 
 }
 .card-image4{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 .card-image5{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 .card-image6{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 .card-image7{
     width: 100%;
-    height: 650px;
+    height: 550px;
     object-fit: cover;
 }
 

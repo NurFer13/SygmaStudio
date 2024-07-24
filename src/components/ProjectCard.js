@@ -1,8 +1,7 @@
 import NavBar from "./NavBar";
 import { Link } from "react-router-dom";
 import project1 from "../Images/1_a.png";
-import project2 from "../Images/2_a.png";
-import project3 from "../Images/3_a.png";
+import ProCardcss from "./ProjectCard.module.css"
 
 export default function projectCard(){
    return(
@@ -10,26 +9,13 @@ export default function projectCard(){
 <NavBar/>
 
 <h1 className="projecth1"><Link className="p1" to="/projects">PROJECTS</Link></h1>
-<div id="carouselExample" class="carousel slide">
-  <div className="carousel-inner">
-    <div className="carousel-item active">
-      <img src={project1} className="fotos-carousel" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={project2} className="fotos-carousel" alt="..."/>
-    </div>
-    <div className="carousel-item">
-      <img src={project3} className="fotos-carousel" alt="..."/>
-    </div>
-  </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Previous</span>
-  </button>
-  <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-    <span className="visually-hidden">Next</span>
-  </button>
+
+<div className={ProCardcss.card}><Link className="projectCard" to="../projects">
+  <img src={project1} className="card-image1" alt="..."/>
+  <div className={ProCardcss.card-body}>
+    <h2 className={ProCardcss.card-title}>WHAT'S BEHIND</h2>
+    <p className="card-text">Competition Festival Model Temple – Barcelona</p>
+  </div></Link>
 </div>
 </div> 
   );
