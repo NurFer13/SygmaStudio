@@ -1,11 +1,11 @@
 import NavBar from "../components/NavBar.js";
 import project1 from "../Images/p1/1_a.png";
 import project2 from "../Images/p2/2_a.png";
-import project3 from "../Images/3_a.png";
-import project4 from "../Images/4_a.png";
-import project5 from "../Images/5_a.png";
-import project6 from "../Images/6_a.png";
-import project7 from "../Images/7_a.png";
+import project3 from "../Images/p3/3_a.png";
+import project4 from "../Images/p4/4_a.png";
+import project5 from "../Images/p5/5_a.png";
+import project6 from "../Images/p6/6_a.png";
+import project7 from "../Images/p7/7_a.png";
 import { Link } from "react-router-dom";
 
 export default function Projects (){
