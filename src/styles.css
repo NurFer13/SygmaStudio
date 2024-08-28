@@ -43,14 +43,21 @@
 }
 
 .officepic{
-    width: 550px;
+    /* width: 550px;
     height: 800px;
     margin: 50px;
-    margin-left: 150px;
+    margin-left: 150px; */
+
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
 }
 
+
+
 .officetext{
-    flex: 1;
+    /* flex: 1;
     text-align: right;
     padding: 10px;
     margin-top: 700px;
@@ -59,7 +66,16 @@
     font-size: 25px;
     font-family: arial;
     font-weight: normal;
-    text-align: left;
+    text-align: left; */
+    flex: 1;
+    text-align: left; /* Ensure consistent alignment */
+    padding: 10px;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px; /* Reduce font size for smaller screens */
+    font-family: arial;
+    font-weight: normal;
     
 } 
 .officename{

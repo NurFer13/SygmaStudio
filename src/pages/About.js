@@ -1,5 +1,5 @@
 import NavBar from "../components/NavBar.js";
-import officepic from "../Images/officesentados.jpeg"
+import officepic from "../Images/officesentados2.jpg"
 
 
 
@@ -9,7 +9,7 @@ export default function About (){
 <NavBar/>
 <h1 className="officename">OFFICE</h1>
 <div className="container">
-<div className="office container">
+<div className="office_container">
     <img className="officepic" src={officepic} alt="officepic" /></div>
    <div className="officetext"> <p>sygm<span className="bold">a</span>.studio is an architectural research based on traditional
          architecture that aims to explore the relationship between 
