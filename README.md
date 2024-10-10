@@ -1,0 +1,1 @@
+This project aims to create a professional website for an architecture firm. The website will showcase the firm's expertise, projects, and contact information. The primary technology used is JavaScript with React for a dynamic and interactive user experience.
